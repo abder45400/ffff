@@ -24,5 +24,6 @@ control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EV
         basic.showString("gauche")
     } else {
         maqueen.motorStop(maqueen.Motors.All)
+        basic.showString("Stop")
     }
 })
