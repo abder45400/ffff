@@ -1,6 +1,3 @@
-let lastValue = 0
-let vitesseM1 = 0
-let vitesseM2 = 0
 control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EVT_ANY, function () {
     if (lastValue != control.eventValue()) {
         lastValue = control.eventValue()
@@ -27,3 +24,10 @@ control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EV
         basic.showString("Stop")
     }
 })
+let vitesseM1 = 0
+let vitesseM2 = 0
+let lastValue = 0
+lastValue = 0
+vitesseM2 = 0
+vitesseM1 = 0
+basic.showString("Hello!")
